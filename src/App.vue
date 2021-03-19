@@ -20,7 +20,7 @@
         ></v-img>
       </template>
 
-      <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon @click="drawer = !drawer" />
 
       <transition name="fade">
         <v-app-bar-title
@@ -43,7 +43,7 @@
     </v-app-bar>
 
     <v-main>
-      <router-view />
+      <router-view class="px-6" />
     </v-main>
 
     <!-- Scroll to Top Button-->
