@@ -45,17 +45,23 @@
     <v-main>
       <router-view />
     </v-main>
+
+    <!-- Scroll to Top Button-->
+    <scroll-to-top-button />
   </v-app>
+
 </template>
 
 <script>
 import Navigation from '@/components/Navigation.vue'
+import ScrollToTopButton from '@/components/ScrollToTopButton.vue'
 
 export default {
   name: 'App',
 
   components: {
-    Navigation
+    Navigation,
+    ScrollToTopButton
   },
 
   data: () => ({
