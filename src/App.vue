@@ -1,21 +1,18 @@
 <template>
   <v-app id="inspire">
-    <v-navigation-drawer
-      v-model="drawer"
-      app
-    >
-
-      <div id="nav">
-        <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link>
-      </div>
-
-    </v-navigation-drawer>
+    <navigation
+      :drawer="drawer"
+    />
 
     <v-app-bar app>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Application</v-toolbar-title>
+      <v-toolbar-title
+        v-model="drawer"
+      >
+        Application
+      </v-toolbar-title>
+
     </v-app-bar>
 
     <v-main>
@@ -25,15 +22,17 @@
 </template>
 
 <script>
+import Navigation from '@/components/Navigation.vue'
 
 export default {
   name: 'App',
 
   components: {
+    Navigation
   },
 
   data: () => ({
-    drawer: null
+    drawer: true
   })
 }
 </script>
