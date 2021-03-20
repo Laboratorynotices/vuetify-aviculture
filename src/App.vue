@@ -33,13 +33,20 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn
-        icon
-        href="https://www.google.com/"
-        target="_blank"
-      >
-        <v-icon>mdi-cart</v-icon>
-      </v-btn>
+      <v-tooltip bottom>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn
+            icon
+            href="https://www.google.com/"
+            target="_blank"
+            v-bind="attrs"
+            v-on="on"
+          >
+            <v-icon>mdi-cart</v-icon>
+          </v-btn>
+        </template>
+        <span>zu meinem Shop</span>
+      </v-tooltip>
     </v-app-bar>
 
     <v-main>

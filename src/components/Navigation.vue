@@ -52,7 +52,7 @@
 
             <v-list-item-title v-text="child.title" />
             <v-list-item-icon>
-              <v-icon v-text="item.action" />
+              <v-icon v-text="child.action" />
             </v-list-item-icon>
 
           </v-list-item>
@@ -76,51 +76,55 @@ export default {
     items: [
       {
         action: 'mdi-home-variant',
-        title: 'Home',
+        title: 'Startseite',
         to: '/'
       },
       {
         action: 'mdi-information',
-        title: 'About',
+        title: 'Über uns',
         to: '/about'
       },
       {
-        action: 'mdi-silverware-fork-knife',
-        title: 'Dining',
+        action: 'mdi-bird',
+        title: 'Kleine Küken',
         active: true,
         items: [
           {
-            title: 'Breakfast & brunch',
-            to: '/about'
+            title: 'Vogelbestand',
+            action: 'mdi-book-open-page-variant',
+            to: '/bird-stock'
           },
-          { title: 'New American' },
-          { title: 'Sushi' }
+          {
+            title: 'Futter',
+            action: 'mdi-bowl-mix',
+            to: '/lining'
+          },
+          {
+            title: 'Informationen',
+            action: 'mdi-file-table',
+            to: '/information'
+          },
+          {
+            title: 'Fotos',
+            action: 'mdi-camera',
+            to: '/fotos'
+          }
         ]
       },
       {
-        action: 'mdi-school',
-        items: [{ title: 'List Item' }],
-        title: 'Education'
+        action: 'mdi-map-search',
+        title: 'Contact',
+        to: '/contact'
       },
       {
-        action: 'mdi-run',
-        items: [{ title: 'List Item' }],
-        title: 'Family'
+        action: 'mdi-link-variant',
+        title: 'Links',
+        to: '/links'
       },
       {
-        action: 'mdi-bottle-tonic-plus',
-        items: [{ title: 'List Item' }],
-        title: 'Health'
-      },
-      {
-        action: 'mdi-content-cut',
-        items: [{ title: 'List Item' }],
-        title: 'Office'
-      },
-      {
-        action: 'mdi-tag',
-        items: [{ title: 'List Item' }],
-        title: 'Promotions'
+        action: 'mdi-gavel',
+        title: 'Impressum',
+        to: '/impressum'
       }
     ],
     right: null
