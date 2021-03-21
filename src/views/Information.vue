@@ -55,10 +55,10 @@ export default {
     ],
     birds: [
       {
-        name: 'Plattschweifsittiche'
+        name: 'Plattschweiffalken'
       },
       {
-        name: 'Stanleysittich',
+        name: 'Stanleyfalke',
         bodyLength: '25',
         genderDifferences: 'ja',
         eggs: '3-7',
@@ -70,7 +70,7 @@ export default {
         anklet: '5,0'
       },
       {
-        name: 'Pennantsittich',
+        name: 'Pennantfalke',
         bodyLength: '36',
         genderDifferences: 'nein',
         eggs: '4-6',
@@ -94,7 +94,7 @@ export default {
         anklet: '5,5'
       },
       {
-        name: 'Rosellasittich',
+        name: 'Rosellafalke',
         bodyLength: '32',
         genderDifferences: 'nein',
         eggs: '5-7',
@@ -106,10 +106,10 @@ export default {
         anklet: '5,5'
       },
       {
-        name: 'Singsittiche'
+        name: 'Singfalken'
       },
       {
-        name: 'Blutbauchsittich',
+        name: 'Blutbauchfalke',
         bodyLength: '28',
         genderDifferences: 'ja',
         eggs: '4-7',
@@ -121,7 +121,7 @@ export default {
         anklet: '5,5'
       },
       {
-        name: 'Vielfarbensittich',
+        name: 'Vielfarbenfalke',
         bodyLength: '27',
         genderDifferences: 'ja',
         eggs: '4-7',
@@ -133,7 +133,7 @@ export default {
         anklet: '4,5'
       },
       {
-        name: 'Singsittich',
+        name: 'Singfalke',
         bodyLength: '28',
         genderDifferences: 'ja',
         eggs: '4-7',
@@ -145,10 +145,10 @@ export default {
         anklet: '4,5'
       },
       {
-        name: 'Grassittiche'
+        name: 'Grasfalken'
       },
       {
-        name: 'Schmucksittich',
+        name: 'Schmuckfalke',
         bodyLength: '23',
         genderDifferences: 'ja',
         eggs: '4-6',
@@ -160,7 +160,7 @@ export default {
         anklet: '4,0'
       },
       {
-        name: 'Feinsittich',
+        name: 'Feinfalke',
         bodyLength: '22',
         genderDifferences: 'ja',
         eggs: '4-6',
@@ -172,7 +172,7 @@ export default {
         anklet: '4,0'
       },
       {
-        name: 'Schönsittich',
+        name: 'Schönfalke',
         bodyLength: '20',
         genderDifferences: 'ja',
         eggs: '4-6',
@@ -184,7 +184,7 @@ export default {
         anklet: '4,0'
       },
       {
-        name: 'Glanzsittich',
+        name: 'Glanzfalke',
         bodyLength: '20',
         genderDifferences: 'ja',
         eggs: '3-5',
